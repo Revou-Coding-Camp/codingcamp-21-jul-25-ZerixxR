@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        h1 {text-align: center; font-style: italic; font-size: 18px;}
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adlan To-Do List test</title>
-    <link rel="icon" type="image/x-icon" href="img/adlnwlf v2.png">
-
-    <link rel="stylesheet" href="style.css">
+    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="img/adlnwlf v2.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Adlan To-Do List</title>
+  
 </head>
 <body>
+
     
-    </div>
-    <div class="calcu">
+    <!-- </div>
+    <div class="todo">
         <h1>To-Do List</h1> 
         <input type="text" id="display1" disabled>
         <input type="text" id="display2" disabled>
@@ -26,7 +25,54 @@
         </div>
         <input type="text" id="display3" disabled>
 
+    </div> -->
+
+    
+    <div class="todo">
+        <!-- <h1>To-Do List</h1>  -->
+        <img class="logoadlan" src="img/adlanlogo.png" alt="">
+
+        <div class="top-row">
+            <input type="text" id="display1" placeholder="Add ur fuckin todo.." disabled />
+            <input type="text" id="display2" placeholder="MM/DD/YYYY" disabled />
+            <button class="tombol plus">+</button>
+        </div>
+
+        <div class="button">
+            <button class="btn operator">FILTER</button>
+            <div class="middle"></div>
+            <button class="btn2 operator">DELETE ALL</button>
+        </div>
+
+        <!-- <input type="text" id="display3" disabled> -->
+        <table class="display3">
+        <thead>
+            <tr>
+            <th>TASK</th>
+            <th>DUE DATE</th>
+            <th>STATUS</th>
+            <th>ACTIONS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td colspan="4" class="no-task">No task found</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <p style="
+            text-align: center;
+            font-size: 10px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        ">Updated 7/26/25 5:30PM</p>
+
     </div>
+
+    
+
+
     <script src="js/script.js"></script>
 
 </body>
